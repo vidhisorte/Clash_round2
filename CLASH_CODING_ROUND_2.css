@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+}
+
+.containermain{
+    /* background-color: aqua; */
+    /* width: 100%; */
+    /* padding-left: 0px;
+    padding-right: 0px; */
+    padding: 0px;
+    height: calc(100vh - 120px);
+    flex-direction: row;
+    display: flex;
+}
+
+.lcont{
+    /* background-color: red; */
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.rcont{
+    background-color: blue;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.lcontup{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    border:2px solid black ;
+    height: 40px;
+    justify-content: space-around;
+    border-radius: 3px;
+}
+
+.rcontup{
+    background-color: orange;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.score{
+   
+   padding-top: 5px;
+   display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    padding-left: 4px;
+    
+}
+
+.score h5{
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 1px solid black;
+    border-radius:3px;
+    font-size: 15px;
+    
+    
+}
+
+.rank{
+  
+    /* background-color: green; */
+    padding-top: 5px;
+    display:flex;
+    align-items: center;
+    padding-left: 4px;
+    
+}
+
+.rank h5{
+
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 1px solid black;
+    border-radius:3px;
+    font-size: 15px;
+    
+}
+
+.lcontmain{
+    display: flex;    
+    background-color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    justify-content:space-evenly;
+   border-bottom: 1px solid black;
+}
+
+.questionbar :hover{
+    background-color: lightgrey;
+}
+.langchoose{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.choosefile{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    display: inline-block;
+    /* background-color: black; */
+    }
+
+.loadbuffer{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.codeeditdiv{
+    flex: 100%;
+    max-height: calc(100% - 50px);
+    width: 100%;
+}
+
+.rcontd{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.rbtnd{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* ........................................................................................ */
+/* .editor {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.editor__wrapper {
+    width: 100%;
+    max-height: calc(100vh - 150px);
+    display: flex;
+    flex: 70%;
+    flex-direction: column;
+    background: var(--editor-bg);
+    padding: 2em;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.editor__body {
+    flex: 1;
+}
+
+.editor__footer {
+    display: flex;
+}
+
+.editor__footer--left {
+    display: flex;
+    flex-direction: column;
+}
+
+.editor__console_up{
+    flex: 1;
+    margin-left: 10px;
+    overflow: scroll;
+}
+
+.editor__btn {
+    border: 0;
+    padding: .5em;
+    background-color: #fff;
+    border: 2px solid #333;
+    margin-top: 1em;
+    width: 100px;
+    cursor: pointer;
+}
+
+.editor__console {
+    background-color: #fff;
+    width: 80%;
+    flex: 20%;
+    height: 130px;
+    margin-top: .9em;
+    border: 1px solid var(--editor-border);
+    overflow: auto;
+}
+
+.editor__code {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid var(--editor-border);
+} */
