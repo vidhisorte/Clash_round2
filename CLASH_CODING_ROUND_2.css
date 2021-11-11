@@ -21,7 +21,7 @@
 }
 
 .rcont{
-    background-color: blue;
+    /* background-color: blue; */
     flex:1;
     display: flex;
     flex-direction: column;
@@ -38,8 +38,8 @@
 }
 
 .rcontup{
-    background-color: orange;
-    height: 40px;
+    /* background-color: orange; */
+    /* height: 40px; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -87,7 +87,7 @@
     
 }
 
-.lcontmain{
+.lcontq{
     display: flex;    
     background-color: white;
     padding-top: 3px;
@@ -99,23 +99,35 @@
 .questionbar :hover{
     background-color: lightgrey;
 }
+
+.lcontmain{
+    /* background-color: yellowgreen; */
+    height: calc(100vh - 100px);
+}
+
+#questionarea{
+    width: 100%;
+    height: 100%;
+}
 .langchoose{
     padding-left:20px;
     padding-right: 20px;
     padding-top: 6px;
     padding-bottom: 6px;
     border-radius: 4px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 2.5px 10px;
 }
 
 .choosefile{
-    padding-left:20px;
-    padding-right: 20px;
+    /* padding-left:20px;
+    padding-right: 20px; */
     padding-top: 6px;
     padding-bottom: 6px;
     border-radius: 4px;
     display: inline-block;
+    background-color: white;
+    border: 1px solid grey;
+    margin:2.5px 10px;
     /* background-color: black; */
     }
 
@@ -127,20 +139,25 @@
     border-radius: 4px;
     background-color: white;
     border: 1px solid grey;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin:2.5px 10px;
 }
 
 .codeeditdiv{
     flex: 100%;
+    min-height: 350px;
     max-height: calc(100% - 50px);
-    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
 }
 
+#editor{
+    width: 100%;
+     height: 100%;
+}
 .rcontd{
     height: 50px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -148,86 +165,103 @@
 }
 
 .rbtnd{
-    padding-left:20px;
-    padding-right: 20px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding: 6px 20px 6px 20px;
     border-radius: 4px;
     background-color: white;
     border: 1px solid grey;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 2.5px 10px;
 }
 
-
-/* ........................................................................................ */
-/* .editor {
-    height: 100%;
+.tacid{
     width: 100%;
+    max-width: 650px;
+    /* min-width: 576px; */
+}
+
+.tacib{
+    /* background-color: coral; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.editor__wrapper {
     width: 100%;
-    max-height: calc(100vh - 150px);
-    display: flex;
-    flex: 70%;
-    flex-direction: column;
-    background: var(--editor-bg);
-    padding: 2em;
-    border-radius: 3px;
-    border: 1px solid #ccc;
 }
 
-.editor__body {
-    flex: 1;
-}
-
-.editor__footer {
-    display: flex;
-}
-
-.editor__footer--left {
-    display: flex;
-    flex-direction: column;
-}
-
-.editor__console_up{
-    flex: 1;
-    margin-left: 10px;
-    overflow: scroll;
-}
-
-.editor__btn {
-    border: 0;
-    padding: .5em;
-    background-color: #fff;
-    border: 2px solid #333;
-    margin-top: 1em;
-    width: 100px;
-    cursor: pointer;
-}
-
-.editor__console {
-    background-color: #fff;
-    width: 80%;
-    flex: 20%;
-    height: 130px;
-    margin-top: .9em;
-    border: 1px solid var(--editor-border);
-    overflow: auto;
-}
-
-.editor__code {
-    position: relative;
-    height: 100%;
+.inpf{
+    /* background-color: aqua; */
+    border-bottom: 1px solid gray;
     width: 100%;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border: 1px solid var(--editor-border);
-} */
+}
+
+.inpf p{
+    margin: 2px;
+    /* text-overflow: clip; */
+}
+
+#sampleinput{
+    width: 100%;
+    font-size: 14px;
+}
+
+.cio{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.ciod{
+    flex: 50%;
+    max-width: 50%;
+    margin: 10px;
+    /* height: 300px;
+    background-color: crimson; */
+}
+
+#custominput{
+    width: 100%;
+}
+
+#output{
+    width: 100%;
+}
+
+@media (max-width:576px){
+    .cio{
+        flex-direction: column;
+    }
+
+    .ciod{
+        max-width: 100%;
+        flex: 100%;
+    }
+}
+@media (max-width :850px ){
+    .containermain{
+        flex-direction: column;
+        height: unset;
+    }
+    .rcontup{
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+
+    .rcontd{
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+
+    .lcontmain{
+        height: auto;
+    }
+
+    .lcontq{
+        flex-wrap: wrap;
+    }
+    .codeeditdiv{
+        height: 5000px;
+    }
+
+    .footerr{
+        position: relative;
+    }
+}

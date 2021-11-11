@@ -46,17 +46,14 @@
       <div class="lcontup">
         <div class="score ">
           <h5>SCORE : 00</h5>
-
         </div>
 
         <div class="rank">
           <h5>YOUR RANK : 00</h5>
-
         </div>
-
       </div>
 
-      <div class="lcontmain">
+      <div class="lcontq">
 
         <div class="questionbar">
           <button type="button" class="btn btn-white">Q1</a></button>
@@ -76,6 +73,12 @@
         <div class="questionbar">
           <button type="button" class="btn btn-white">Q6</button>
         </div>
+      </div>
+
+      <div class="lcontmain">
+        <textarea name="questionarea" id="questionarea" rows="10">
+question textarea
+        </textarea>
       </div>
     </div>
 
@@ -122,7 +125,12 @@
           </select>
         </div>
         <div>
-          <input type="file" name="Codefile" id="choosefile" class="choosefile">
+          <!-- <label for="choosefile" style="display: none;">hello</label>
+          <input type="file" name="Codefile" id="choosefile" class="choosefile"> -->
+          <label class="btn custom-input-btn choosefile" >
+            <input type="file" name="photo" style="display:none" accept="*" multiple>        
+            Choose File 
+            </label>
         </div>
         <div>
           <input type="button" value="Load Buffer" class="loadbuffer" id="Loadbuffer">
@@ -130,7 +138,7 @@
       </div>
 
       <div style=" display: block;" class="codeeditdiv" media="screen">
-        <div id="editor" style="width: 100%; height: 100%;" media="screen">function foo(items) {
+        <div id="editor"  media="screen">function foo(items) {
           var x = "All this is syntax highlighted";
           return x;
           }</div>
@@ -139,26 +147,49 @@
         <div>
           <input type="reset" value="Clear" class="rbtnd">
         </div>
+        <div>
+          <input type="submit" value="Submit" class="rbtnd">
+        </div>
 
         <!-- Button trigger modal -->
-        <button type="button" class="btn rbtnd" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          Test again custom input
+        <button type="button" class="btn rbtnd" data-bs-toggle="modal" data-bs-target="#Codeeditor">
+          Test Against Custom Input
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
+        <div class="modal fade" id="Codeeditor" tabindex="-1" aria-labelledby="CodeeditorLabel" aria-hidden="true">
+          <div class=" modal-fullscreen-sm-down modal-dialog modal-dialog-centered tacid">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="CodeeditorLabel">Enter Custom Input:</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                ...
+              <div class="modal-body tacib">
+                <div class="inpf">
+                  <h5>Input Format:</h5>
+                  <!-- <br> -->
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptatum iste nulla unde.
+                    Nemo, maxime. Facilis fugit recusandae enim perspiciatis.
+                  </p>
+                  <h6>Example:</h6>
+                  <textarea name="Sampleinput" id="sampleinput" rows="3"></textarea>
+                </div>
+
+                <div class="cio">
+                  <div class="ciod">
+                    <h5>Custom Input:</h5>
+                    <textarea name="Custominput" id="custominput" rows="5"></textarea>
+                  </div>
+                  <div class="ciod">
+                    <h5>Output:</h5>
+                    <textarea name="output" id="output" rows="5"></textarea>
+                  </div>
+                </div>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary">Run</button>
               </div>
             </div>
           </div>
@@ -193,9 +224,7 @@
 
 
 
-        <div>
-          <input type="submit" value="Submit" class="rbtnd">
-        </div>
+        
       </div>
       <!-- </form> -->
     </div>
@@ -207,7 +236,7 @@
   <script src="./editor.js"></script>
 
   <!-- Footer goes here -->
-  <footer class="text-center fixed-bottom bg-light">
+  <footer class="text-center fixed-bottom bg-light footerr" style="clear: both;">
     <div class="container-fluid">
       <div class="footer-text pt-3 pb-4">PISB <span>&copy</span></div>
     </div>
