@@ -8,7 +8,10 @@
     /* padding-left: 0px;
     padding-right: 0px; */
     padding: 0px;
+    /* margin: 0px 10px 0px 10px; */
+    /* margin-left: 10px; */
     height: calc(100vh - 120px);
+    width: 100%;
     flex-direction: row;
     display: flex;
 }
@@ -18,6 +21,7 @@
     flex:1;
     display: flex;
     flex-direction: column;
+    margin: 0px 10px;
 }
 
 .rcont{
@@ -25,6 +29,7 @@
     flex:1;
     display: flex;
     flex-direction: column;
+    margin: 0px 10px;
 }
 
 .lcontup{
@@ -108,6 +113,7 @@
 #questionarea{
     width: 100%;
     height: 100%;
+    resize: none;
 }
 .langchoose{
     padding-left:20px;
@@ -142,9 +148,26 @@
     margin:2.5px 10px;
 }
 
+.modebtns{
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid grey;
+    margin:2.5px 10px;
+}
+
+#lightmodebtn{
+    display: none;
+    
+}
 .codeeditdiv{
     flex: 100%;
     min-height: 350px;
+    border: 1px solid grey;
+    border-radius: 3px;
     max-height: calc(100% - 50px);
     max-width: 100%;
     flex-direction: column;
@@ -199,6 +222,7 @@
 #sampleinput{
     width: 100%;
     font-size: 14px;
+    resize: none;
 }
 
 .cio{
@@ -217,10 +241,12 @@
 
 #custominput{
     width: 100%;
+    resize: none;
 }
 
 #output{
     width: 100%;
+    resize: none;
 }
 
 @media (max-width:576px){

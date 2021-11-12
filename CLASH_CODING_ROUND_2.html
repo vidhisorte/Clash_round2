@@ -76,7 +76,7 @@
       </div>
 
       <div class="lcontmain">
-        <textarea name="questionarea" id="questionarea" rows="10">
+        <textarea name="questionarea" id="questionarea" rows="10" readonly>
 question textarea
         </textarea>
       </div>
@@ -128,24 +128,33 @@ question textarea
           <!-- <label for="choosefile" style="display: none;">hello</label>
           <input type="file" name="Codefile" id="choosefile" class="choosefile"> -->
           <label class="btn custom-input-btn choosefile" >
-            <input type="file" name="photo" style="display:none" accept="*" multiple>        
+            <input type="file" name="photo" style="display:none" accept="*" id="cfile" onclick="fun1()">        
             Choose File 
             </label>
         </div>
         <div>
           <input type="button" value="Load Buffer" class="loadbuffer" id="Loadbuffer">
         </div>
+        <div>
+          <button onclick="darkmode()" class="modebtns" id="darkmodebtn">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button onclick="lightmode()" class="modebtns" id="lightmodebtn">
+            <i class="fas fa-sun"></i>
+          </button>
+        </div>
       </div>
 
       <div style=" display: block;" class="codeeditdiv" media="screen">
         <div id="editor"  media="screen">function foo(items) {
           var x = "All this is syntax highlighted";
+          //your code goes here
           return x;
           }</div>
       </div>
       <div class="rcontd">
         <div>
-          <input type="reset" value="Clear" class="rbtnd">
+          <input type="reset" value="Clear" class="rbtnd" onclick="cleareditor()">
         </div>
         <div>
           <input type="submit" value="Submit" class="rbtnd">
@@ -173,17 +182,17 @@ question textarea
                     Nemo, maxime. Facilis fugit recusandae enim perspiciatis.
                   </p>
                   <h6>Example:</h6>
-                  <textarea name="Sampleinput" id="sampleinput" rows="3"></textarea>
+                  <textarea name="Sampleinput" id="sampleinput" rows="3" readonly></textarea>
                 </div>
 
                 <div class="cio">
                   <div class="ciod">
                     <h5>Custom Input:</h5>
-                    <textarea name="Custominput" id="custominput" rows="5"></textarea>
+                    <textarea name="Custominput" id="custominput" rows="6"></textarea>
                   </div>
                   <div class="ciod">
                     <h5>Output:</h5>
-                    <textarea name="output" id="output" rows="5"></textarea>
+                    <textarea name="output" id="output" rows="6" readonly></textarea>
                   </div>
                 </div>
               </div>
@@ -234,6 +243,8 @@ question textarea
     crossorigin="anonymous"></script>
   <script src="./ace-builds-master/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
   <script src="./editor.js"></script>
+  <script src="https://kit.fontawesome.com/84ff0cdea4.js" crossorigin="anonymous"></script>
+
 
   <!-- Footer goes here -->
   <footer class="text-center fixed-bottom bg-light footerr" style="clear: both;">
