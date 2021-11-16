@@ -2,30 +2,35 @@ body{
   align-items: center;
   text-align: center;
   background-color: #fafdfe;
+
 }
 #h11{
-    margin-top: 20px;
-    align-items: center;
-    text-align: center;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
 }
 
 label{
   display: inline-block;
 }
 
-.main_box{
+#main_box{
 
-    align-items: center;
-    text-align: center;
-  margin: 20px auto auto auto;
-  width: 65%;
+  align-items: center;
+  text-align: center;
+  margin: auto auto auto auto;
   border:2px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   border-radius: 25px;
   box-shadow: 5px 5px 5px #888888;
 }
 #input1{
-width: 30%;
-height: 33px;
+  width: 30%;
+  height: 33px;
   align-items: center;
   text-align: center;
   margin: 30px auto 10px 0;
@@ -64,9 +69,6 @@ height: 33px;
   border-radius: 20px;
 }
 i{padding-right: 6px;
+  padding-top: 6px;
 }
-@media screen and (max-width: 700px){
-  .main_box{
-    width: 80%;
-  }
-}
+
