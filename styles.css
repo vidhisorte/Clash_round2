@@ -1,4 +1,8 @@
 #tc{
-    width: 280px;
-    height: 70px;
+    width: 150px;
+    height: 80px;
+}
+#tc1{
+    width: 200px;
+    height: auto;
 }
