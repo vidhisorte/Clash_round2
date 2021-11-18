@@ -29,7 +29,6 @@ label{
   box-shadow: 5px 5px 5px #888888;
 }
 #input1{
-  width: 30%;
   height: 33px;
   align-items: center;
   text-align: center;
@@ -39,7 +38,6 @@ label{
   background-color: #f5fbfe;
 }
 #input2{
-  width: 30%;
   height: 33px;
   align-items: center;
   text-align: center;
