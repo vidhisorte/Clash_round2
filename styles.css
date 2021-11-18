@@ -1,8 +1,25 @@
-#tc{
-    width: 150px;
-    height: 80px;
+textarea
+{
+    resize: none;
 }
-#tc1{
-    width: 200px;
-    height: auto;
+
+.height-card
+{
+    height: 70px;
+    padding-top: 5px;
+}
+
+.abtn
+{
+    margin-top: 80px;
+}
+
+.console
+{
+    height: 260px;
+}
+
+@media(max-width : 768px)
+{
+    
 }
