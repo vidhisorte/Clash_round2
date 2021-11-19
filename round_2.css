@@ -1,13 +1,15 @@
-body{
+.body{
   align-items: center;
   text-align: center;
-  background-color: #fafdfe;
-
+  background-color: #121414;
+  color: white;
 }
 #h11{
-  margin-top: 20px;
+  margin-top: 15px;
   align-items: center;
   text-align: center;
+  font-size: 50px;
+  text-shadow: 3px 3px #16873d;
 }
 
 label{
@@ -15,36 +17,43 @@ label{
 }
 
 #main_box{
-
+  background-color: #2e353e;
   align-items: center;
   text-align: center;
-  margin: auto auto auto auto;
-  border:2px solid;
+  margin: auto;
+  border:2px solid #16873d;
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   border-radius: 25px;
-  box-shadow: 5px 5px 5px #888888;
+  box-shadow: 8px 8px 8px #16873d;
+ @media screen and (max-width: 430px) {
+   height: 500px;
+ }
 }
 #input1{
-  height: 33px;
+  height: 40px;
   align-items: center;
   text-align: center;
-  margin: 30px auto 10px 0;
+  margin: 25px auto 10px auto;
   border: 0;
-  box-shadow: 2px 2px #888888;
-  background-color: #f5fbfe;
+  font-size: 22px;
+  box-shadow: 4px 4px #16873d;
+  background-color: white;
+  color: black;
 }
 #input2{
-  height: 33px;
+  height: 40px;
   align-items: center;
   text-align: center;
   margin:0 auto 20px auto;
   border: 0;
-  box-shadow: 2px 2px #888888;
-  background-color: #f5fbfe;
+  font-size: 22px;
+  box-shadow: 4px 4px #16873d;
+  background-color: white;
+  color: black;
 }
 #label1{
   align-items: center;
@@ -61,12 +70,45 @@ label{
   align-items: center;
   text-align: center;
   display: block;
-  margin: 10px auto 35px auto;
+  margin: 5px auto 35px auto;
   width: 40%;
-  box-shadow: 3px 3px 3px #888888;
+  box-shadow: 3px 3px 3px #16873d;
   border-radius: 20px;
+  background-color: #1A4645
+}
+#submit:hover {
+  background-color: #051821;
+}
+input{
+  color: black;
+}
+input:focus {
+    color: #1A4645;
 }
 i{padding-right: 6px;
   padding-top: 6px;
+  color: white;
 }
+::placeholder {
+  color: black;
+  opacity: 0.7;
+}
+.footer{
+  background-color: #192626;
+  color: white;
+  font-size: 1rem;
+}
+#nav{
+  background-color: #192626;
+  color: white;
+  font-size: 1.5rem;
+  display: block;
+  position: static;
+}
+#nav3{
+  background-color: #192626;
+  color: white;
+  font-size: 1rem;
+}
+
 
