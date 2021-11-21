@@ -9,7 +9,6 @@
   align-items: center;
   text-align: center;
   font-size: 50px;
-  text-shadow: 3px 3px #16873d;
 }
 
 label{
@@ -21,17 +20,15 @@ label{
   align-items: center;
   text-align: center;
   margin: auto;
-  border:2px solid #16873d;
+  padding: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   border-radius: 25px;
-  box-shadow: 8px 8px 8px #16873d;
- @media screen and (max-width: 430px) {
-   height: 500px;
- }
+
+
 }
 #input1{
   height: 40px;
@@ -39,8 +36,7 @@ label{
   text-align: center;
   margin: 25px auto 10px auto;
   border: 0;
-  font-size: 22px;
-  box-shadow: 4px 4px #16873d;
+  font-size: 20px;
   background-color: white;
   color: black;
 }
@@ -50,10 +46,10 @@ label{
   text-align: center;
   margin:0 auto 20px auto;
   border: 0;
-  font-size: 22px;
-  box-shadow: 4px 4px #16873d;
+  font-size: 20px;
   background-color: white;
   color: black;
+  padding-left: 0;
 }
 #label1{
   align-items: center;
@@ -71,7 +67,7 @@ label{
   text-align: center;
   display: block;
   margin: 5px auto 35px auto;
-  width: 40%;
+  /* width: 40%; */
   box-shadow: 3px 3px 3px #16873d;
   border-radius: 20px;
   background-color: #1A4645
@@ -110,5 +106,9 @@ i{padding-right: 6px;
   color: white;
   font-size: 1rem;
 }
-
+#nomargin{
+  margin: 0;
+  padding: 0;
+  align-items: flex-end;
+}
 
