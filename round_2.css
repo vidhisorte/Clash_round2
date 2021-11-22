@@ -1,7 +1,7 @@
 .body{
   align-items: center;
   text-align: center;
-  background-color: #0B0C10;
+  background-color: #131313;
   color: white;
 }
 #h11{
@@ -9,7 +9,7 @@
   align-items: center;
   text-align: center;
   font-size: 50px;
-  color: #C5C6C7;
+  color: white;
 }
 
 label{
@@ -17,7 +17,7 @@ label{
 }
 
 #main_box{
-  background-color: #1F2833;
+  background-color: #222222;
   align-items: center;
   text-align: center;
   margin: auto;
@@ -37,7 +37,7 @@ label{
   margin: 25px auto 10px auto;
   border: 0;
   font-size: 18px;
-  background-color: #C5C6C7;
+  background-color: white;
   color: black;
 }
 #input2{
@@ -47,7 +47,7 @@ label{
   margin:0 auto 20px auto;
   border: 0;
   font-size: 18px;
-  background-color: #C5C6C7;
+  background-color: white;
   color: black;
   padding-left: 0;
 }
@@ -68,12 +68,12 @@ label{
   display: block;
   margin: 5px auto 35px auto;
   /* width: 40%; */
-  box-shadow: 3px 3px 3px #C5C6C7;
+  box-shadow: 4px 4px 4px #000000;
   border-radius: 20px;
-  background-color: #45A29E;
+  background-color: #126e82;
 }
 #submit:hover {
-  background-color: #66FCF1;
+  background-color: #1f2833;
 }
 input{
   color: black;
@@ -83,26 +83,26 @@ input:focus {
 }
 i{padding-right: 6px;
   padding-top: 6px;
-  color: #C5C6C7;
+  color: white;
 }
 ::placeholder {
   color: black;
   opacity: 0.7;
 }
 .footer{
-  background-color: #192626;
+  background-color: #1f2833;
   color: white;
   font-size: 1rem;
 }
 #nav{
-  background-color: #192626;
+  background-color: #1f2833;
   color: white;
   font-size: 1.5rem;
   display: block;
   position: static;
 }
 #nav3{
-  background-color: #192626;
+  background-color: #1f2833;
   color: white;
   font-size: 1rem;
 }
@@ -117,4 +117,3 @@ input[type=radio] {
     -webkit-transform: scale(1.7); /* Chrome, Safari, Opera */
     transform: scale(1.7);
 }
-
