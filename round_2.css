@@ -28,7 +28,7 @@ label{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   border-radius: 25px;
-
+  z-index: -1;
 }
 #input1{
   height: 40px;
@@ -100,11 +100,13 @@ i{padding-right: 6px;
   font-size: 1.5rem;
   display: block;
   position: static;
+  
 }
 #nav3{
   background-color: #1f2833;
   color: white;
   font-size: 1rem;
+ 
 }
 #nomargin{
   margin: 0;
