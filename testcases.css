@@ -1,0 +1,24 @@
+textarea
+{
+    resize: none;
+}
+
+.height-card
+{
+    height: 60px;
+}
+
+.abtn
+{
+    margin-top: 67px;
+}
+
+.console
+{
+    height: 220px;
+}
+
+@media(max-width : 768px)
+{
+    
+}
