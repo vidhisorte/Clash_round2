@@ -6,9 +6,9 @@ body {
   margin-bottom: 55px;/* Margin bottom by footer height*/
 } 
 
-.cm{
+/* .cm{
   height: calc(100vh - 120px);
-}
+} */
 .footer {
   position: absolute;
   bottom: 0;
