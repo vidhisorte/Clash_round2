@@ -1,7 +1,8 @@
- body {
+body {
     height: 100%;
     width: 100%;
     background-color: #131313;
+    word-break: keep-all;
 }
 img{
     color: greenyellow;
@@ -11,6 +12,12 @@ img{
 .badge{
     color: greenyellow;
 }
+
+#status , #score , #tc , #tc2
+{
+    white-space: nowrap;
+} 
+
 textarea
 {
     resize: none;
@@ -73,7 +80,7 @@ textarea
 
 .console
 {
-    height: 220px;
+    height: 250px;
 }
 
 .footer-text{
@@ -139,7 +146,28 @@ textarea
       font-style: normal;
   }
 
-@media(max-width : 700px)
+  .test-cases
+  {
+      margin-top: 25px;
+      width: 94%;
+  }
+
+  .padup
+  {
+      margin-bottom: 25px;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+
+  .padown
+  {
+      margin-top: 25px;
+      margin-left: 5px;
+      margin-right: 5px;
+
+  }
+
+@media(max-width : 450px)
 {
     body{
         width: fit-content;
@@ -152,7 +180,13 @@ textarea
     .mob-status
     {
         margin-top: 220px;
-        padding-right: 200px;
+        padding-right: 42%;
+        margin-left: -9.5%;
+    }
+
+    .console
+    {
+        height: 220px;
     }
 
     .abtn{
@@ -162,7 +196,8 @@ textarea
     .mob-score
     {
         margin-top: -167.7999999999px;
-        padding-left: 150px;
+        padding-left: 42%;
+        padding-right: 0.5%;
     }
 
     .mob-retry
@@ -171,11 +206,120 @@ textarea
     }
 
     .mob-retry button.w-25{
-        width: 150px!important;
+        width: 180px!important;
+    }
+
+    .mob-row .col{
+        display: -webkit-box;
     }
 
     .mob-cases
     {
-        margin-top: 150px;
+        margin-top: 140px!important;
+        width: 70%;   
     }
+
+    .test-cases
+    {
+        margin-left: 0px;
+    }
+
+    .padup
+  {
+      margin-bottom: 25px;
+      margin-left: 5px;
+      margin-right: 12px;
+  }
+
+  .padown
+  {
+      margin-top: 0px;
+      margin-left: 6px;
+      margin-right: 5px;
+  }
+
 }
+
+  @media (min-width : 450px) and (max-width : 769px)
+ {
+    body{
+        width: fit-content;
+    }
+    .col-md-6
+    {
+        margin-top: -400px;
+    }
+
+    .mob-status
+    {
+        margin-top: 220px;
+        padding-right: 41%;
+        margin-left: -6%;
+    }
+
+    .console
+    {
+        height: 220px;
+    }
+
+    .abtn{
+        width: 80%;
+    }
+
+    .mob-score
+    {
+        margin-top: -171.7999999999px;
+        padding-left: 36%;
+        padding-right: 6.5%;
+        margin-left: 9%;
+}
+
+    .mob-retry
+    {
+        margin-top: -187px;
+    }
+
+    .mob-retry button.w-25{
+        width: 180px!important;
+    }
+
+    .mob-row .col{
+        display: -webkit-box;
+    }
+
+    .mob-cases
+    {
+        margin-top: 150px!important;
+        width: 70%;   
+    }
+
+    .mob-row
+    {
+        margin-right : -10px ;
+    }
+
+    .test-cases
+    {
+        margin-left: 0px;
+    }
+
+    .padup
+  {
+      margin-bottom: 25px;
+      margin-left: 13px;
+      margin-right: 12px;
+      width: 336px;
+  }
+
+  .padown
+  {
+      margin-top: 0px;
+      margin-left: 6px;
+      margin-right: 5px;
+      width: 336px;
+  }
+
+
+ }
+
+
