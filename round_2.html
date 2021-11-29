@@ -1,84 +1,96 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-   <meta name="viewport" content="initial-scale=0.8">
-  <title>round 2</title>
-  <link rel="stylesheet" href="Round_2.css">
-  <script src="https://kit.fontawesome.com/a4c3148064.js" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ <!-- Required meta tags -->
+ <meta charset="utf-8" />
+ <meta name="Your Name" content="Your page" />
+ <meta name="viewport" content="width=device-width, initial-scale=0.8" />
 
+ <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+ 
+
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+   <link rel="stylesheet" href="Login.css">
+ <title>Login</title>
 </head>
-
-<body class="body">
-
-  <!-- Navbar goes here -->
-  <nav  class="navbar navbar-expand-sm " id="nav" >
+<body class="bg_color">
+  <nav class="navbar navbar-expand-sm " id="navbar"  >
     <div class="container-fluid" >
-      <a id="nav" class="navbar-brand" href="#">Navbar</a>
-      <button id="" class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand navvi" href="#">Navbar</a>
+      <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
-          <li class="nav-item">
-            <a id="nav3" class="nav-link active" aria-current="page" href="#">Home</a>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link active navvi" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a id="nav3" class="nav-link" href="#">Profile</a>
+            <a class="nav-link  navvi" href="#">Profile</a>
           </li>
 
-          <li id="nav3" class="nav-item">
-            <a class="nav-link disabled">Logout</a>
+          <li class="nav-item">
+            <a class="nav-link disabled  navvi">Logout</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="row">
 
-
-    <div id="main_box" class="col-8 col-lg-5 col-md-6 col-sm-8">
-      <h1 id="h11">CLASH</h1>
-      <form class="" action="/" method="post">
-        <div class="row" >
-
-
-          <div id="nomargin">
-            <i class="fas fa-user fa-2x"></i>
-            <input type="text"  name="" class="col-6" value="" id="input1" placeholder="Username">
+   <!-- your code goes here -->
+   <div class="container-fluid" >
+     <div class="row justify-content-center">
+       <div class="col-12 col-sm-6 col-md-3" >
+    <form>  
+      <div class="container"> 
+        <div class="int">
+        <div class="head ">CLASH <br> Round 2</div>  
+          <div class="row justify-content-center">
+            
+            <div class="col-xs-4 col-xs-offset-4 mt-2">
+              <div class="floating-label-group ">
+                
+              <input type="text" id="username" class="form-control" autocomplete="on" autofocus required />
+              
+                <label class="floating-label y">Username</label>
+              </div>
+            
+              <div class="floating-label-group ">
+              <input type="password" id="password" class="form-control" autocomplete="off" required />
+              <label class="floating-label">Password</label>
+              </div>
+            </div>
           </div>
-
-          <div id="nomargin">
-            <i class="fas fa-lock fa-2x"></i>
-            <input type="password" name="" value="" class="col-6" id="input2" placeholder="Password">
-          </div>
-        </div>
-
-        <input type="radio" name="button"></input>
-        <label id="label1" for="">Junior</label>
-        <input type="radio" name="button"></input>
-        <label id="label2" for="">Senior</label>
-        <div class="row">
-          <button type="button" name="button" id="submit" class="col-5 col-md-6 col-sm-5 col-lg-6 btn btn-secondary">LOGIN</button>
-        </div>
-
-
-      </form>
-
-    </div>
-  </div>
-
-  <footer class="text-center fixed-bottom footer">
-    <div class="container-fluid">
-      <div class="footer-text pt-2 pb-3">PISB <span>&copy</span></div>
+          <input type="radio" name="button" ></input>
+          <label id="label1" for="" class="text-light ">Junior</label>
+          <input type="radio" name="button"></input>
+          <label id="label2" for="" class="text-light ">Senior</label>
+          <button type="button" name="button" id="submit" class="btn-col ">LOGIN</button>
+        </div> 
+        
+      </div>   
+  </form> 
+</div>  
+</div>   
+</div>  
+</div>
+   <!-- Footer goes here -->
+  <footer class="text-center fixed-bottom bg-light" >
+    
+    <div class="container-fluid" id="footer">
+      <div class="footer-text pt-3 pb-4">PISB <span>&copy</span></div>
     </div>
   </footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-</body>
 
 </html>
