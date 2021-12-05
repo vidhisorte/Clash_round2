@@ -1,20 +1,3 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  margin-bottom: 55px;/* Margin bottom by footer height*/
-} 
-
-/* .cm{
-  height: calc(100vh - 120px);
-} */
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 55px; /*Set the fixed height of the footer here*/
-}
 .heading {
   text-align: center;
   padding: 20px 0px;
@@ -59,7 +42,7 @@ body {
   padding-bottom: 13px;
   padding-right: 20px;
   background-color: #0b0c10;
-  border-color: #126e82;
+  border-color: #126E82;
   border-width: 3px;
 }
 .one {
@@ -71,7 +54,7 @@ body {
 .checkboxouter {
   text-align: center;
   align-tracks: center;
-  margin: 60px 0px 20px 0px;
+  /* margin: 60px 0px 20px 0px; */
   color: rgb(255, 255, 255);
 }
 .checkbox {
@@ -81,17 +64,27 @@ body {
   text-align: center;
 }
 .button {
-  margin: 20px 0px 20px;
+  /* margin: 20px 0px 80px; */
   vertical-align: middle;
   width: 150px;
-  background-color: #16873d;
-  border: #16873d;
-  color: white;
-}
-.button:hover {
-  background-color: #10632d;
 }
 
-.inn {
+/* .footer {
+  height: 70px;
+} */
+/* .inn {
   width: 100px;
-}
+} */
+/* .align{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height: 85vh;
+} */
+/* body{
+  display: flex;
+  flex-direction: column;
+} */
+/* .container{
+
+} */

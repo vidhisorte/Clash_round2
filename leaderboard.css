@@ -7,7 +7,6 @@ body{
 
 .navbar{
     background-color: #1f2833;
-    
 }
 
 
@@ -55,6 +54,7 @@ body{
 }
 
 .table{
+    min-width: fit-content;
     width:100%;
     margin-top: 35px;
     margin-right: 10px;
@@ -74,6 +74,10 @@ body{
 
 .footer{
     background-color:#1f2833;
+}
+
+.maincnt{
+    height: calc(100vh - 92px);
 }
 /*
 @media (max-width:768px)
@@ -204,6 +208,9 @@ body{
     .circle{
         margin-left: 45%;
     }
+    .maincnt{
+        height: auto;
+    }
 }
 
 @media(max-width:980px)
@@ -227,6 +234,11 @@ body{
         width: 100%;
         
     }
+
+    .maincnt{
+        height: auto;
+    }
+
 }
 @media (max-width:375px)
 {
@@ -257,5 +269,9 @@ body{
         margin-top: 20px;
         margin-right: 20%;
 
+    }
+
+    .maincnt{
+        height: auto;
     }
 }

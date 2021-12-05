@@ -10,7 +10,7 @@
     padding: 0px;
     /* margin: 0px 10px 0px 10px; */
     /* margin-left: 10px; */
-    height: calc(100vh - 120px);
+    height: calc(100vh - 92px);
     width: 100%;
     flex-direction: row;
     display: flex;
@@ -111,7 +111,7 @@
 
 .lcontmain{
     /* background-color: yellowgreen; */
-    height: calc(100vh - 250px);
+    height: calc(100vh - 230px);
 }
 
 #questionarea{

@@ -1,0 +1,143 @@
+.bg_color{
+  align-items: center;
+  text-align: center;
+  background-color: #131313;
+  color: white;
+}
+
+.form-control {
+  display: inline-block;
+  width: 220px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-left: -15px;
+  color: #000000;
+  background-color: white;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#navbar{
+  background:#1F2833;
+  color: white;
+}
+
+#label1{
+  margin-right: 20px;
+}
+.navvi{
+  color: white;
+}
+
+#footer{
+  background:#1F2833;
+  color: white;
+}
+
+.container{
+  background: #222222;
+  border: 5px solid #000000;
+  padding: 60px;
+  border-radius: 10px;
+  width: 340px;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  text-align: center;
+  z-index: -1;
+
+}
+
+.int{
+  padding: 15px ;
+}
+
+#center{
+  text-align: center;
+}
+
+.head{
+  font-size: 35px;
+  margin-top:-55px;
+  color:white ;
+  text-shadow: -5px 5px 5px #126e82  ;
+}
+#submit{
+  margin-top: 30px;
+  width: 180px;
+  height: 35px;
+
+}
+#submit:hover {
+  background-color: #126e82;
+  transition: 0.5s;
+  border:solid 1px black;
+}
+#credentials{
+  margin-top:20px;
+}
+.bigger{
+  font-size: 30px;
+}
+.btn-col{
+  background-color:#1F2833;
+  border-radius: 35px;
+  color: white;
+  border: 1px solid white;
+}
+
+.white{
+  background: white;
+}
+
+.form{  
+  margin-top: 20px;
+}
+
+
+
+
+.floating-label-group {
+	position: relative;
+	margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+.floating-label {
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.719);
+	position: absolute;
+	pointer-events: none;
+	top: 9px;
+	left: 12px;
+	transition: all 0.3s ease;
+}
+
+	input:focus ~ .floating-label,
+	input:not(:focus):valid ~ .floating-label {
+		top: -30px;
+		bottom: 0px;
+		left: 0px;
+		font-size: 20px;
+		opacity: 2;
+		color: white;
+	}
+
+
+.row {
+	margin-top: 25px;
+}
+
+input[type=radio] {
+  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}

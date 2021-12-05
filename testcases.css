@@ -1,14 +1,14 @@
 body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-color: #131313;
     word-break: keep-all;
 }
-img{
+/* img{
     color: greenyellow;
     height: 10px;
     width: auto;
-}
+} */
 .badge{
     color: greenyellow;
 }
@@ -27,19 +27,19 @@ textarea
     border-color: #222222;
     border-top-color : white ;
 }
-.navbar{
+/* .navbar{
     background-color: #1f2833!important;
     border-color: #222222;
 }
 #footer{
     background-color: #1f2833!important;
-}
-.navbar-light .navbar-brand{
+} */
+/* .navbar-light .navbar-brand{
     color: white;
 }
 .nav-link{
     color: white;
-}
+} */
 
 .btn
 {

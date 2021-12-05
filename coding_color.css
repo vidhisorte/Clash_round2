@@ -2,6 +2,36 @@
     background-color: #1f2833;
 }
 
+.stroke ul li a,
+.stroke ul li a:after,
+.stroke ul li a:before {
+  transition: all .5s;
+  color: white;
+}
+.stroke ul li a:hover {
+  color: lightgrey;
+}
+
+.stroke ul li a {
+  position: relative;
+}
+
+.stroke ul li a:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+.stroke ul li a:hover:after {
+  width: 100%;
+}
+
 /* .navbar-toggler{
     color: white;
     background-color: red;
