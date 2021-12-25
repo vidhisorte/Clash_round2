@@ -10,7 +10,7 @@
     padding: 0px;
     /* margin: 0px 10px 0px 10px; */
     /* margin-left: 10px; */
-    height: calc(100vh - 92px);
+    height: calc(100vh - 112px);
     width: 100%;
     flex-direction: row;
     display: flex;
