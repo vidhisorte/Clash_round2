@@ -42,7 +42,7 @@ body {
   padding-bottom: 13px;
   padding-right: 20px;
   background-color: #0b0c10;
-  border-color: #126E82;
+  border-color: #126e82;
   border-width: 3px;
 }
 .one {
@@ -54,7 +54,7 @@ body {
 .checkboxouter {
   text-align: center;
   align-tracks: center;
-  /* margin: 60px 0px 20px 0px; */
+  margin: 60px 0px 20px 0px;
   color: rgb(255, 255, 255);
 }
 .checkbox {
@@ -64,27 +64,19 @@ body {
   text-align: center;
 }
 .button {
-  /* margin: 20px 0px 80px; */
+  margin: 20px 0px 80px;
   vertical-align: middle;
   width: 150px;
 }
 
-/* .footer {
+.footer {
   height: 70px;
-} */
-/* .inn {
+}
+.inn {
   width: 100px;
-} */
-/* .align{
-  display:flex;
-  flex-direction: column;
+}
+.align {
+  display: flex;
   align-items: center;
   height: 85vh;
-} */
-/* body{
-  display: flex;
-  flex-direction: column;
-} */
-/* .container{
-
-} */
+}
