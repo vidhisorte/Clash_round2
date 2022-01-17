@@ -55,6 +55,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 5px;
 
 }
 
@@ -111,14 +112,16 @@
 
 .lcontmain{
     /* background-color: yellowgreen; */
-    height: calc(100vh - 230px);
+    height: calc(100vh - 270px);
 }
 
 #questionarea{
-    width: 100%;
+    /* width: 100%; */
+    width: calc(100% - 20px);
     height: 100%;
     resize: none;
     padding: 25px;
+    margin: 10px;
 }
 
 #questionarea::-webkit-scrollbar-track
@@ -221,6 +224,7 @@
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
+    margin: 5px;
 }
 
 .rbtnd{
