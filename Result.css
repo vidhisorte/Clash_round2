@@ -44,7 +44,7 @@ color: white;
 }
 
 .down_bor{
-  border-bottom: 1px solid #126E82;
+  border-bottom: 1px dashed #126E82;
 }
 
 .down_bor2{
