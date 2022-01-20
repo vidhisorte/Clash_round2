@@ -3,42 +3,42 @@ $(document).ready(function(){
     $(".post-module1").hover(function(){
       $(".description1" ).animate({
         height: 'toggle'
-      });
+      },300);
     });
 });
 $(function(){
     $(".post-module2").hover(function(){
       $(".description2").animate({
         height: 'toggle'
-      });
+      },300);
     });
   });
   $(function(){
     $(".post-module3").hover(function(){
       $(".description3").animate({
         height: 'toggle'
-      });
+      },300);
     });
   });
   $(function(){
     $(".post-module4").hover(function(){
       $(".description4").animate({
         height: 'toggle'
-      });
+      },300);
     });
   });
   $(function(){
     $(".post-module5").hover(function(){
       $(".description5").animate({
         height: 'toggle'
-      });
+      },300);
     });
   });
   $(function(){
     $(".post-module6").hover(function(){
       $(".description6").animate({
         height: 'toggle'
-      });
+      },300);
     });
   });
   
