@@ -51,6 +51,11 @@ color: white;
   border-bottom: 4px solid #126E82;
 }
 
+.font_wt{
+  font-weight: bold;
+  /*font-size:30px;*/
+}
+
 .box{
    
 border-radius: 10px;
