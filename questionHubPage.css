@@ -1,9 +1,9 @@
 /* @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&family=Ubuntu+Mono&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@100&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&family=Ubuntu+Mono&display=swap'); */
 body {
   background: #131313;
   overflow-x: hidden;
-  font-family: 'Ubuntu Mono', monospace;
+  /* font-family: 'Ubuntu Mono', monospace; */
 
 }
 
@@ -74,7 +74,8 @@ body {
 .post-modules {
   /* width: 100%; */
   text-align: center;
-  margin-bottom: 2px !important;
+  margin-bottom: 0px !important;
+  border-bottom: 1px solid #c0c0c0;
   border-radius: 10px 10px 0px 0px !important;
   /* background: #16873d; */
   background: transparent;
@@ -83,7 +84,6 @@ body {
   /* border-top: 4px double #c0c0c0;
   border-left: 4px double #c0c0c0;
   border-right: 4px double #c0c0c0; */
-  border-bottom: 1px solid #c0c0c0;
   /* border-bottom: 1px solid #16873d;
   /* the below should be changed as per convinience  */
   min-height: 160px;
@@ -109,7 +109,7 @@ body {
   color: #fff;
   padding-bottom: 6px;
   padding-top: 6px;
-  font-size: 23px;
+  font-size: 20px;
   font-weight:bolder !important ;
   border-bottom:1px solid #c0c0c0;
   /* position: relative; */
@@ -393,7 +393,7 @@ body {
   background: #293b5f;
   width:100%;
   border-radius: 0px 0px 5px 5px;
-  border-top: 1px solid #c0c0c0;
+  /* border-top: 1px solid #c0c0c0; */
   /* border-left: 4px double #c0c0c0;
   border-right: 4px double #c0c0c0;
   border-bottom: 4px double #c0c0c0; */
