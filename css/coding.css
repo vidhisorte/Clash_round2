@@ -46,6 +46,8 @@
     /* height: 40px; */
     justify-content: space-around;
     border-radius: 3px;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .rcontup{
